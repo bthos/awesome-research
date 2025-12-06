@@ -1,4 +1,4 @@
-# Awesome Research Results [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Research [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated collection of research notes and findings on web development, Azure DevOps integration, AI APIs, and editor implementations.
 
