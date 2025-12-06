@@ -7,36 +7,41 @@ globs: *
 
 This file serves as the central repository for all project-related rules, coding standards, workflow guidelines, references, documentation structures, and best practices. It is a "living" document, continuously updated and refined based on new user-AI interactions and project needs.
 
-## HEADERS
-
-(Placeholder for headers - To be populated with standard header information as the project evolves. Examples include project name, version, last updated date, etc.)
-
 ## PROJECT DESCRIPTION & GOALS
 
-(Placeholder for overall project description and goals.)
+**awesome-research** is a curated collection of research documents covering various technical topics. Following the "awesome list" pattern, this repository serves as:
 
-## TECH STACK
+- A centralized knowledge base for research findings
+- A reference collection for implementation patterns and best practices
+- A living archive of technical investigations
 
-(Placeholder for tech stack details. Examples include programming languages, frameworks, libraries, databases, etc.)
+## REPOSITORY STRUCTURE
 
-## CODING STANDARDS
+```
+awesome-research/
+├── README.md                    # Main index/awesome list
+├── .github/
+│   ├── copilot-instructions.md  # AI agent instructions (this file)
+│   └── awesome-list-instructions.md  # Awesome list format rules
+└── researches/                  # Research documents folder
+    └── YYYYMMDD-topic-research.md
+```
 
-(Placeholder for coding standards. Examples include naming conventions, code formatting, commenting guidelines, etc.)
+## AI ASSISTANT INSTRUCTIONS
 
-## WORKFLOW & RELEASE RULES
+The AI assistant is responsible for maintaining the "awesome list" format of the repository. 
 
-(Placeholder for workflow and release rules. Examples include branching strategies, pull request processes, versioning schemes, deployment procedures, etc.)
+**See [awesome-list-instructions.md](awesome-list-instructions.md) for detailed format rules, templates, and guidelines.**
 
-## PROJECT DOCUMENTATION & CONTEXT SYSTEM
+Key responsibilities:
 
-(Placeholder for documentation standards and context system details. Examples include documentation formats, location of key documents, how to access project context, etc.)
+1. **Creating New Research:** Generate properly named files in `researches/` folder and update README.md index
+2. **Modifying Research:** Preserve document structure and formatting conventions
+3. **Querying Research:** Search by topic keywords and cross-reference related documents
 
-## DEBUGGING
+## REFERENCES
 
-(Placeholder for debugging guidelines and best practices.)
-
-## AI ASSISTANT SPECIFIC INSTRUCTIONS
-
-(Placeholder for instructions specifically for the AI assistant, including how to interpret and apply the rules defined in this file.)
-
-The AI assistant should be capable of understanding and applying the "awesome list" format when interacting with the repository.
+- [Awesome List Format Instructions](awesome-list-instructions.md) - Detailed format rules and templates
+- [Awesome List Guidelines](https://github.com/sindresorhus/awesome/blob/main/awesome.md)
+- [Markdown Guide](https://www.markdownguide.org/)
+- [Conventional Commits](https://www.conventionalcommits.org/)
