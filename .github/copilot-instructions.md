@@ -23,7 +23,7 @@ awesome-research/
 ├── .github/
 │   ├── copilot-instructions.md  # AI agent instructions (this file)
 │   └── awesome-list-instructions.md  # Awesome list format rules
-└── researches/                  # Research documents folder
+└── research/                  # Research documents folder
     └── YYYYMMDD-topic-research.md
 ```
 
@@ -35,7 +35,7 @@ The AI assistant is responsible for maintaining the "awesome list" format of the
 
 Key responsibilities:
 
-1. **Creating New Research:** Generate properly named files in `researches/` folder and update README.md index
+1. **Creating New Research:** Generate properly named files in `research/` folder and update README.md index
 2. **Modifying Research:** Preserve document structure and formatting conventions
 3. **Querying Research:** Search by topic keywords and cross-reference related documents
 

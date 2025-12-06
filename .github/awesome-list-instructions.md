@@ -10,7 +10,7 @@ awesome-research/
 ├── .github/
 │   ├── copilot-instructions.md  # AI agent instructions
 │   └── awesome-list-instructions.md  # This file
-└── researches/                  # Research documents folder
+└── research/                  # Research documents folder
     └── YYYYMMDD-topic-research.md
 ```
 
@@ -28,7 +28,7 @@ A collection of research results covering different topics
 
 ## Category Name
 
-- [Research Title](researches/YYYYMMDD-topic-research.md) - Brief one-line description
+- [Research Title](research/YYYYMMDD-topic-research.md) - Brief one-line description
 ```
 
 **Index Guidelines:**
@@ -36,7 +36,7 @@ A collection of research results covering different topics
 - Group research documents by relevant categories
 - Use descriptive, concise one-line descriptions
 - Keep entries sorted chronologically within categories (newest first) or alphabetically
-- Link directly to the research document in `researches/` folder
+- Link directly to the research document in `research/` folder
 
 ## Research Document Naming Convention
 
@@ -121,7 +121,7 @@ Continue with structured findings...
    - Use current date for YYYYMMDD
    - Use descriptive kebab-case topic name
 
-2. **Create document** in `researches/` folder following the template structure
+2. **Create document** in `research/` folder following the template structure
 
 3. **Update README.md** to add the new research entry:
    - Add appropriate category if it doesn't exist
@@ -164,10 +164,10 @@ Continue with structured findings...
 
 ```bash
 # 1. Create research file
-researches/YYYYMMDD-topic-research.md
+research/YYYYMMDD-topic-research.md
 
 # 2. Update README.md with new entry
-- [Topic Title](researches/YYYYMMDD-topic-research.md) - Brief description
+- [Topic Title](research/YYYYMMDD-topic-research.md) - Brief description
 
 # 3. Commit with descriptive message
 git commit -m "Add research: Topic Title"
