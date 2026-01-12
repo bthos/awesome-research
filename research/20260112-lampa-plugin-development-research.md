@@ -6,14 +6,14 @@
 
 ### Documentation Analysis
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/docs/api.md`
+- **API Documentation** (`docs/api.md`)
   - Core API reference covering globals (Lampa namespace), Storage, Reguest, Controller, Activity, Player
   - Network handling patterns with timeouts and headers
   - Settings and SettingsApi integration methods
   - Component lifecycle: create, start, back, render, destroy
   - Event and listener patterns for app lifecycle hooks
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/docs/architecture.md`
+- **Architecture Documentation** (`docs/architecture.md`)
   - Plugin model and loading mechanisms
   - Lifecycle phases: load time, activation, deactivation
   - Hook and event system overview
@@ -21,7 +21,7 @@
   - File structure recommendations
   - Versioning and compatibility guidelines
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/docs/ui.md`
+- **UI Documentation** (`docs/ui.md`)
   - Menu entry integration patterns (Settings and sidebar)
   - Scrollable list/grid implementation using Scroll component
   - Card and grid best practices
@@ -29,7 +29,7 @@
   - Background management
   - Player integration for UI components
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/docs/streams.md`
+- **Streams Documentation** (`docs/streams.md`)
   - Supported source formats (HLS, DASH, progressive MP4, TorrServer)
   - Player API usage patterns
   - Failover strategy implementation
@@ -38,19 +38,19 @@
   - DRM limitations and fallbacks
   - Error handling checklist
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/docs/storage-and-prefs.md`
+- **Storage and Preferences Documentation** (`docs/storage-and-prefs.md`)
   - Storage conventions and namespacing
   - Schema definition with defaults
   - Version migration patterns
   - SettingsApi field types and integration
   - Storage change listeners
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/docs/security.md`
+- **Security Documentation** (`docs/security.md`)
   - Risky patterns to avoid (eval, open proxies, auto-start features)
   - Safer alternatives and best practices
   - Privacy and legal compliance considerations
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/docs/testing-debugging.md`
+- **Testing and Debugging Documentation** (`docs/testing-debugging.md`)
   - Logging best practices with debug toggles
   - Focus and Controller debugging techniques
   - Network troubleshooting approaches
@@ -58,23 +58,23 @@
   - Performance optimization tips
   - Common pitfalls
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/docs/packaging-publishing.md`
+- **Packaging and Publishing Documentation** (`docs/packaging-publishing.md`)
   - File structure (manifest.json, main.js, ui.js, styles.css)
   - Semantic versioning requirements
   - Distribution methods (HTTPS hosting, landing pages, checksums)
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/docs/migration.md`
+- **Migration Documentation** (`docs/migration.md`)
   - API deprecation tracking
   - Feature detection and fallback patterns
   - Changelog maintenance requirements
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/docs/catalog.md`
+- **Plugin Catalog** (`docs/catalog.md`)
   - Comprehensive plugin catalog with security analysis
   - 40+ plugin summaries with integration patterns and risk assessments
 
 ### Security Audit Analysis
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/audit_report.md`
+- **Security Audit Report** (`audit_report.md`)
   - Security audit findings for sampled plugins
   - High-risk patterns: eval() usage, obfuscated loaders, remote code execution
   - Medium-risk patterns: HTTP usage, token storage, proxy dependencies
@@ -83,23 +83,23 @@
 
 ### Templates and Examples
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/templates/plugin-template/`
+- **Plugin Template** (`templates/plugin-template/`)
   - Production-ready starter template with manifest.json, main.js, ui.js, styles.css
   - Complete component lifecycle implementation
   - Settings integration example
   - Network request patterns
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/templates/sample-plugins/`
+- **Sample Plugins** (`templates/sample-plugins/`)
   - Six specialized plugin examples: IPTV, search provider, settings-only, TMDB proxy, UI tweak, details-episodes
   - Practical implementation patterns for common use cases
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/examples/full-usage-examples.md`
+- **Full Usage Examples** (`examples/full-usage-examples.md`)
   - End-to-end code snippets for common tasks
   - Settings entry and component creation
   - Network requests with headers
   - Search hook implementation
 
-- `https://github.com/bthos/lampa-plugins-docs/blob/main/checklists/plugin-checklist.md`
+- **Plugin Checklist** (`checklists/plugin-checklist.md`)
   - Pre-publication checklist covering metadata, security, storage, network, player, and licensing
 
 ## Key Discoveries
@@ -1354,17 +1354,17 @@ Note required Lampa app versions for compatibility.
 
 ## References
 
-### Official Documentation
+### Source Documentation
 
-- Lampa Plugins Docs Repository: `https://github.com/bthos/lampa-plugins-docs`
-- Plugin Template: `https://github.com/bthos/lampa-plugins-docs/blob/main/templates/plugin-template/`
-- Sample Plugins: `https://github.com/bthos/lampa-plugins-docs/blob/main/templates/sample-plugins/`
-- Security Audit Report: `https://github.com/bthos/lampa-plugins-docs/blob/main/audit_report.md`
+This research consolidates information from the following documentation sources:
+- **Plugin Template**: Production-ready starter template with complete lifecycle implementation
+- **Sample Plugins**: Six specialized plugin examples covering common use cases
+- **Security Audit Report**: Analysis of 40+ real-world plugins with risk assessments
+- **Plugin Catalog**: Comprehensive catalog of analyzed plugins with integration patterns
 
 ### External Resources
 
 - Lampa GitHub: https://github.com/yumata/lampa
-- Plugin Catalog: 40+ analyzed plugins in `https://github.com/bthos/lampa-plugins-docs/blob/main/docs/catalog.md`
 - Community Forums: Various plugin developers and users
 
 ### Key Documentation Files
