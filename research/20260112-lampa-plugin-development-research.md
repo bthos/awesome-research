@@ -1367,17 +1367,17 @@ This research consolidates information from the following documentation sources:
 - Lampa GitHub: https://github.com/yumata/lampa
 - Community Forums: Various plugin developers and users
 
-### Key Documentation Files
+### Key Topics Covered
 
-- **Architecture**: `docs/architecture.md` - Plugin model and lifecycle
-- **API Reference**: `docs/api.md` - Core APIs and usage patterns
-- **UI Integration**: `docs/ui.md` - Menu entries, lists, grids, player
-- **Streams**: `docs/streams.md` - Playback, failover, CORS, DRM
-- **Storage**: `docs/storage-and-prefs.md` - Preferences and persistence
-- **Security**: `docs/security.md` - Risk mitigation and best practices
-- **Testing**: `docs/testing-debugging.md` - Debugging techniques
-- **Packaging**: `docs/packaging-publishing.md` - Distribution guidelines
-- **Migration**: `docs/migration.md` - Compatibility and versioning
+- **Architecture**: Plugin model and lifecycle
+- **API Reference**: Core APIs and usage patterns
+- **UI Integration**: Menu entries, lists, grids, player
+- **Streams**: Playback, failover, CORS, DRM
+- **Storage**: Preferences and persistence
+- **Security**: Risk mitigation and best practices
+- **Testing**: Debugging techniques
+- **Packaging**: Distribution guidelines
+- **Migration**: Compatibility and versioning
 
 ## Conclusion
 
