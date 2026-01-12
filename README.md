@@ -1,14 +1,15 @@
 # Awesome Research [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated collection of research notes and findings on web development, Azure DevOps integration, AI APIs, and editor implementations.
+> A curated collection of research notes and findings on web development, Azure DevOps integration, AI APIs, editor implementations, and plugin development.
 
-This repository contains detailed research documents covering various technical topics, with a focus on Azure DevOps (ADO) integrations, browser-based AI capabilities, and rich text editor implementations.
+This repository contains detailed research documents covering various technical topics, with a focus on Azure DevOps (ADO) integrations, browser-based AI capabilities, rich text editor implementations, and media player plugin systems.
 
 ## Contents
 
 - [Azure DevOps Integration](#azure-devops-integration)
 - [Browser AI & Machine Learning](#browser-ai--machine-learning)
 - [Editor & Widget Implementation](#editor--widget-implementation)
+- [Plugin Development](#plugin-development)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -27,6 +28,11 @@ Exploration of AI capabilities available in modern browsers.
 
 - [Browser AI APIs](research/20251130-browser-ai-api-research.md) - Comprehensive research on Chrome's built-in AI APIs (Gemini Nano), including Prompt API, Translator, Summarizer, and Writer APIs. Covers hardware requirements, cost analysis (completely free), and extension integration patterns.
 
+## Plugin Development
+
+Research on building plugins and extensions for media players and other platforms.
+
+- [Lampa Plugin Development](research/20260112-lampa-plugin-development-research.md) - Comprehensive guide to building Lampa plugins covering architecture, API reference, UI patterns, streams & playback, security considerations (with audit findings from 40+ plugins), testing, debugging, and deployment. Includes templates, code examples, and best practices.
 
 ## Contributing
 
